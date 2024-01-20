@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+
+<head>
+    <title>Landing Page</title>
+</head>
+
+<body>
+<h2>Landing Page</h2>
+<hr>
+
+<p>
+Welcome to the landing page.<br><br>
+    Click the below link to access the Z company secured Homepage.
+</p>
+<hr>
+<p>
+    <a th:href="@{/employees}"> Secure Site</a>
+</p>
+
+</body>
+</html>
